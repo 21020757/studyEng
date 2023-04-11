@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4040970d-4122-4ada-b272-4eb4ba7935f5" name="Changes" comment="add category">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/controller/admin/UpdateExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/controller/admin/UpdateExamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/entity/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/entity/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/dto/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/repository/ExamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/repository/ExamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/service/ExamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/service/ExamService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/service/impl/ExamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/service/impl/ExamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/controller/admin/UpdateExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/controller/admin/UpdateExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/entity/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/entity/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/dto/CategoryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/repository/ExamRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/repository/ExamRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/service/ExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/service/ExamService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/service/impl/ExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/service/impl/ExamServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +81,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fpt/Desktop/registration-login-springboot-security-thymeleaf-master - Copy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fpt/Downloads/student-management-system-springboot-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -161,7 +149,18 @@
       <workItem from="1680835314052" duration="8650000" />
       <workItem from="1680885314536" duration="3411000" />
       <workItem from="1681217437255" duration="5816000" />
+      <workItem from="1681226739146" duration="607000" />
+      <workItem from="1681229248314" duration="5558000" />
+      <workItem from="1681235019307" duration="203000" />
     </task>
+    <task id="LOCAL-00001" summary="add category">
+      <created>1681226878069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681226878069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,16 +169,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add category" />
     <option name="LAST_COMMIT_MESSAGE" value="add category" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/test1/controller/admin/UpdateExamController.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

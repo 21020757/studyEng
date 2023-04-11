@@ -9,6 +9,9 @@ import com.example.test1.service.ExamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 
 @Service
 public class ExamServiceImpl implements ExamService {
@@ -17,6 +20,8 @@ public class ExamServiceImpl implements ExamService {
     private ExamRepository examRepository;
     @Autowired
     private CategoryRepository categoryRepository;
+
+
 
     @Override
     public ExamDto save(ExamDto examDto) {
@@ -42,8 +47,10 @@ public class ExamServiceImpl implements ExamService {
     }
 
     @Override
-    public ExamDto updateExam(ExamDto examDto) {
-        return null;
+    public List<ExamDto> findAllExams() {
+        List<Exam> exams = examRepository.findAll();
+        return exams.stream().map(this::convertEntityToDto)
+                .collect(Collectors.toList());
     }
 
     private ExamDto convertEntityToDto(Exam exam){

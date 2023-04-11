@@ -30,6 +30,14 @@ public class UpdateExamController {
         model.addAttribute("users", users);
         return "admin";
     }
+    @GetMapping("/admin/exams")
+    public List<ExamDto> listExams(){
+        return examService.findAllExams();
+    }
+    @GetMapping("/admin/category")
+    public ExamDto listExamByCategory(@RequestBody String category){
+        return null;
+    }
 
     @PostMapping(value = "/admin")
     public ExamDto createExam(@RequestBody ExamDto model) {

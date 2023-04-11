@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface ExamService {
     ExamDto save(ExamDto examDto);
-    ExamDto updateExam(ExamDto examDto);
     void delete(long[] ids);
+    List<ExamDto> findAllExams();
 }
