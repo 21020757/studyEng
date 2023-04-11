@@ -44,5 +44,6 @@ public class UpdateExamController {
 
     @DeleteMapping(value = "/admin")
     public void deleteExam(@RequestBody long[] ids) {
+        examService.delete(ids);
     }
 }

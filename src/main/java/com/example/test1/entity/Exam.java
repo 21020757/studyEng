@@ -13,8 +13,11 @@ public class Exam {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String category;
     private String title;
     private String content;
     private String answers;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
 }
