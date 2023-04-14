@@ -1,7 +1,6 @@
 package com.example.test1.service;
 
 import com.example.test1.dto.ExamDto;
-import com.example.test1.entity.Exam;
 
 import java.util.List;
 

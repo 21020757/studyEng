@@ -55,6 +55,8 @@ public class ExamServiceImpl implements ExamService {
 
     private ExamDto convertEntityToDto(Exam exam){
         ExamDto examDto = new ExamDto();
+
+        examDto.setId(exam.getId());
         examDto.setCategory(String.valueOf(exam.getCategory()));
         examDto.setTitle(exam.getTitle());
         examDto.setAnswers(exam.getAnswers());

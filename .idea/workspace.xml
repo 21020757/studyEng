@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4040970d-4122-4ada-b272-4eb4ba7935f5" name="Changes" comment="add category">
+    <list default="true" id="4040970d-4122-4ada-b272-4eb4ba7935f5" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e3b9fb75-189f-4891-9e21-fc5c9521ed99.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/config/SpringSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/config/SpringSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/controller/admin/UpdateExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/controller/admin/UpdateExamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/dto/CategoryDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/repository/ExamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/repository/ExamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/service/ExamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/service/ExamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/service/impl/ExamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/test1/entity/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/test1/entity/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/config/SpringSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/config/SpringSecurity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/controller/admin/UpdateExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/controller/admin/UpdateExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/dto/CategoryDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/repository/ExamRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/repository/ExamRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/service/ExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/service/ExamService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/service/impl/ExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/service/impl/ExamServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/test1/entity/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/test1/entity/Exam.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fpt/Downloads/student-management-system-springboot-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fpt/Desktop/registration-login-springboot-security-thymeleaf-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -151,7 +148,14 @@
       <workItem from="1681217437255" duration="5816000" />
       <workItem from="1681226739146" duration="607000" />
       <workItem from="1681229248314" duration="5558000" />
-      <workItem from="1681235019307" duration="203000" />
+      <workItem from="1681235019307" duration="247000" />
+      <workItem from="1681293188280" duration="3000" />
+      <workItem from="1681370048382" duration="27000" />
+      <workItem from="1681370388532" duration="197000" />
+      <workItem from="1681391889930" duration="4190000" />
+      <workItem from="1681402206360" duration="212000" />
+      <workItem from="1681402931475" duration="65000" />
+      <workItem from="1681403265561" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="add category">
       <created>1681226878069</created>
@@ -160,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681226878069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1681235251405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681235251405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add category" />
-    <option name="LAST_COMMIT_MESSAGE" value="add category" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

@@ -7,7 +7,6 @@ import com.example.test1.repository.RoleRepository;
 import com.example.test1.repository.UserRepository;
 import com.example.test1.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,8 +18,6 @@ public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
     @Autowired
     private RoleRepository roleRepository;
-    @Autowired
-    private PasswordEncoder passwordEncoder;
 
 
 
@@ -32,7 +29,7 @@ public class UserServiceImpl implements UserService {
 
         //encrypt the password once we integrate spring security
         //user.setPassword(userDto.getPassword());
-        user.setPassword(passwordEncoder.encode(userDto.getPassword()));
+        user.setPassword(userDto.getPassword());
         Role role = roleRepository.findByName("ADMIN");
         if(role == null){
             role = checkRoleExist();
